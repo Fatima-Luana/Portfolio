@@ -13,6 +13,9 @@ body {
 .navegação {
     height: 50px;
     border-bottom: solid gray 0.5px;
+
+    animation-name: navegacao;
+    animation-duration: 4s;
 }
 
 .navegação ul {
@@ -34,8 +37,23 @@ body {
 }
 
 .navegação a {
+    color: #1B1717;
     text-decoration: none;
 }
+
+.navegação a:hover {
+	color: #A4243B;
+}
+.navegação li.icone_menu {
+    font-size: 25px;
+}
+
+.navegação li.icone_menu:hover {
+    cursor: pointer;
+    color: #A4243B;
+}
+
+
 
 /* PARTE PRINCIPAL */ 
 
@@ -47,6 +65,9 @@ body {
 .conteudo_imagem {
     width: 40%;
     text-align: right;
+
+    animation-name: imagem_capa;
+    animation-duration: 4s;
 }
 
 .conteudo_imagem img {
@@ -59,6 +80,9 @@ body {
 .conteudo_titulos {
     width: 60%;
     line-height: 20px;
+
+    animation-name:  titulos_titulos;
+    animation-duration: 3s;
 }
 
 .conteudo_titulos h1 {
@@ -104,3 +128,20 @@ body {
     text-decoration: none;
 }
 
+/* ANIMAÇÕES */ 
+
+@keyframes imagem_capa {
+    0% {opacity: 0; transform: translate(0px, 20px);}
+    100% {opacity: 1; transform: translate(0px, 0px);}
+}
+
+@keyframes titulos_titulos {
+    0% {opacity: 0; transform: translate(0px, -20px);}
+    100% {opacity: 1; transform: translate(0px, 0px);}
+}
+
+@keyframes navegacao{
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1}
+}
