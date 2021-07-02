@@ -158,6 +158,13 @@ body {
 }
 
 .main h2 {
+    color: #A4243B;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+.main h3 {
     font-size: 16px;
     font-weight: 400;
     color: #475993;
@@ -167,8 +174,19 @@ body {
     font-size: 16px;
     line-height: 16px;
     font-weight: 300;
+    line-height: 24px;
+    text-align: justify;
+}
+.main hr {
+    margin-top: -10px;
 }
 
+.img_perfil {
+    float: left;
+	width: 270px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
 .social_image {
     width: 40px;
     margin-right: 10px;
@@ -337,7 +355,7 @@ body {
         font-size: 20px
     }
 
-    .main h2 {
+    .main h3 {
         font-size: 16px;
     }
 
