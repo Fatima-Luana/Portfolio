@@ -5,28 +5,30 @@
 <head>
     <title>Fátima Luana - Portfolio Online</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,inital-scale=1">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/menu.js"></script>
 </head>
 
 <body>
 
     <div id="navegação" class="navegação">
-        <ul>
-           <li> <a href="index.html" >  Home </a> </li>
-           <li> <a href="portfolio.html"> Portifólio</a> </li>
-           <li><a href="curriculo.html">Currículo</a></li>
-           <li> <a href="contato.html">Contato</a></li>
-           <li id="icone_menu" class="icone_menu">&equiv;</li>
+            <ul>
+                <li> <a href="index.html"> Home </a> </li>
+                <li> <a href="portfolio.html"> Portifólio</a> </li>
+                <li><a href="curriculo.html">Currículo</a></li>
+                <li> <a href="contato.html">Contato</a></li>
+                <li id="icone_menu" class="icone_menu" onclick="openMenu()">&equiv;</li>
 
-        </ul>
+            </ul>
     </div> <!-- final da sessão de navegação-->
 
     <div class="conteudo">
 
         <div class="conteudo_imagem">
-            
+
             <img src="image/perfil.jpeg" alt="foto de fátima luana">
 
         </div> <!-- final da sessão conteudo_imagem -->
@@ -34,20 +36,27 @@
         <div class="conteudo_titulos">
 
             <h1> Fátima Luana</h1>
-
+            <hr size="3" width="70%">
             <div class="linha_horizontal_topo"> </div>
 
             <h2> Graduanda em Tecnologia da Informação </h2>
 
             <h3> Desenvolvedora Web - Web Designer </h3>
+            <hr size="3" width="40%" height="0.5px">
 
             <div class="linha_horizontal_baixo"> </div>
-                   <a href="https://www.linkedin.com/in/f%C3%A1tima-luana-a63980215/" target="_blank"> <img src="image/linkedin.png " alt="link para o linkedin"> </a>
-                    <a href="https://github.com/Fatima-Luana" target="_blank"> <img src="image/github.png" alt="link para o gitHub"> </a>
 
-            </div> <!-- final da sessão conteudo_titulos -->
+            <a href="https://www.linkedin.com/in/f%C3%A1tima-luana-a63980215/" target="_blank"> <img
+                    src="image/linkedin.png " alt="link para o linkedin"> </a>
+            <a href="https://github.com/Fatima-Luana" target="_blank"> <img src="image/github.png"
+                    alt="link para o gitHub"> </a>
 
-        </div> <!-- final da sessão conteudo -->
+            <button>Ir para o portfolio</button>
+
+
+        </div> <!-- final da sessão conteudo_titulos -->
+
+    </div> <!-- final da sessão conteudo -->
 </body>
 
 </html>
