@@ -139,6 +139,9 @@ body {
 
 .main {
     padding: 40px 180px 80px 100px;
+
+    animation-name: main;
+    animation-duration: 2s;
 }
 
 .main a {
@@ -166,9 +169,9 @@ body {
     font-weight: 300;
 }
 
-.main img {
-    max-width: 5%;
-    padding-right: 10px;
+.social_image {
+    width: 40px;
+    margin-right: 10px;
 }
 
 .caminho ul {
@@ -212,6 +215,11 @@ body {
     }
 }
 
+@keyframes main {
+    0% {opacity: 0; transform: translate(-20px, 0);}
+    100% {opacity: 1; transform: translate(0, 0);}
+}
+
 @keyframes navegacao {
     0% {
         opacity: 0;
@@ -228,6 +236,7 @@ body {
 
 @media (max-width: 1000px) {
 
+
     .navegação li {
         display: none;
     }
@@ -240,7 +249,6 @@ body {
         height: auto;
         width: 150px;
         background-color: #f1f1f1; 
-        position: absolute;
         right: 0;
         border: none;
     }
@@ -264,6 +272,7 @@ body {
       color: #A4243B;
     }
 
+    /* PÁGINA HOME */ 
     .conteudo {
         flex-direction: column;
     }
@@ -313,4 +322,30 @@ body {
     .conteudo_titulos button {
         display: block;
     }
+
+    /* PÁGINAS DO MENUBAR */ 
+
+    .main {
+        padding: 10px 80px 80px 20px;
+    }
+
+    .caminho li{
+        font-size: 14px;
+    }
+
+    .main h1 {
+        font-size: 20px
+    }
+
+    .main h2 {
+        font-size: 16px;
+    }
+
+    .social_image {
+        width: 30px;
+        margin-right: 5px;
+    }
+    
+
+
 }
