@@ -135,6 +135,59 @@ body {
     display: none;
 }
 
+/* PÁGINA DE CONTATO */ 
+
+.main {
+    padding: 40px 180px 80px 100px;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.back-link {
+    color: #A4243B;
+}
+
+.main h1 {
+    color: #A4243B;
+    font-weight: 400;
+}
+
+.main h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #475993;
+}
+
+.main p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 300;
+}
+
+.main img {
+    max-width: 5%;
+    padding-right: 10px;
+}
+
+.caminho ul {
+    padding-left: 0;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #1B1717;
+}
+
+.caminho li {
+    display: inline-block;
+}
+
+.caminho a {
+    color: #1B1717;
+}
+
+
 /* ANIMAÇÕES */
 
 @keyframes imagem_capa {
