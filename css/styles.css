@@ -411,6 +411,15 @@ body {
         margin-right: 5px;
     }
     
+    /* Portifolio */ 
 
+    .miniaturas {
+        max-width: 100%;
+        background-size: auto 100%;
+    }
+
+    .blackbox {
+        opacity: 0.8;
+    }
 
 }
