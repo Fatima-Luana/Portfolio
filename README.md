@@ -1,2 +1,2 @@
 # Portfolio
-Pequeno projeto para colocar em prática os conhecimentos adquiridos em HTML e CSS
+Pequeno projeto para colocar em prática os conhecimentos básicos adquiridos em HTML e CSS
