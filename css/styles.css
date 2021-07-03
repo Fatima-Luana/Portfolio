@@ -55,7 +55,6 @@ body {
     color: #A4243B;
 }
 
-
 /* PARTE PRINCIPAL */
 
 .conteudo {
@@ -135,11 +134,10 @@ body {
     display: none;
 }
 
-/* PÁGINA DE CONTATO */ 
+/* PÁGINA DE CONTATO */
 
 .main {
     padding: 40px 180px 80px 100px;
-
     animation-name: main;
     animation-duration: 2s;
 }
@@ -177,16 +175,18 @@ body {
     line-height: 24px;
     text-align: justify;
 }
+
 .main hr {
     margin-top: -10px;
 }
 
 .img_perfil {
     float: left;
-	width: 270px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+    width: 270px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
+
 .social_image {
     width: 40px;
     margin-right: 10px;
@@ -208,11 +208,11 @@ body {
     color: #1B1717;
 }
 
-/* PORTFÓLIO */ 
+/* PORTFÓLIO */
 
 .miniaturas {
     width: 300px;
-	height: 300px;
+    height: 300px;
     display: inline-block;
     margin-right: 10px;
     margin-bottom: 15px;
@@ -238,14 +238,13 @@ body {
     transition: 1s;
 }
 
-
 .blackbox_texto {
     text-align: center;
     line-height: 10px;
 }
 
 .blackbox_texto h1 {
-    font-size:  20px;
+    font-size: 20px;
     font-weight: 400;
     color: #A4243B;
 }
@@ -254,7 +253,6 @@ body {
     font-size: 16px;
     color: #475993;
 }
-
 
 /* ANIMAÇÕES */
 
@@ -281,8 +279,14 @@ body {
 }
 
 @keyframes main {
-    0% {opacity: 0; transform: translate(-20px, 0);}
-    100% {opacity: 1; transform: translate(0, 0);}
+    0% {
+        opacity: 0;
+        transform: translate(-20px, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
 }
 
 @keyframes navegacao {
@@ -300,24 +304,20 @@ body {
 /* Responsivo */
 
 @media (max-width: 1000px) {
-
-
     .navegação li {
         display: none;
     }
     .navegação li.icone_menu {
         display: inline-block;
     }
-
     .menuJs {
         position: absolute;
         height: auto;
         width: 150px;
-        background-color: #f1f1f1; 
+        background-color: #f1f1f1;
         right: 0;
         border: none;
     }
-
     .menuJs ul {
         height: auto;
         text-align: center;
@@ -327,17 +327,15 @@ body {
         display: block;
         width: 100%;
         color: #A4243B;
-      /*  border-bottom: solid #A4243B 1px; */
+        /*  border-bottom: solid #A4243B 1px; */
         font-size: 14px;
         padding: 0;
         opacity: 1;
     }
-
     .menuJs a {
-      color: #A4243B;
+        color: #A4243B;
     }
-
-    /* PÁGINA HOME */ 
+    /* PÁGINA HOME */
     .conteudo {
         flex-direction: column;
     }
@@ -346,12 +344,9 @@ body {
         height: auto;
         text-align: center;
     }
-
-    .linha_horizontal_topo, 
-    .linha_horizontal_baixo {
+    .linha_horizontal_topo, .linha_horizontal_baixo {
         display: none;
     }
-
     .conteudo_imagem img {
         max-width: 75%;
         margin-top: 20px;
@@ -361,65 +356,63 @@ body {
         height: auto;
         text-align: center;
     }
-
     .conteudo_titulos h1 {
         margin-top: 20px;
         font-size: normal;
     }
-
     .conteudo_titulos h2 {
         font-size: 16px;
         margin-top: 20px;
     }
-
     .conteudo_titulos h3 {
         font-size: 14px;
         margin-top: 5px;
     }
-
     .conteudo_titulos hr {
         display: block;
         border: none;
-        color: #A4243B; 
-        background-color: #A4243B; 
+        color: #A4243B;
+        background-color: #A4243B;
     }
 
     .conteudo_titulos button {
+        background-color: #FF808B;
+        float: right; 
+        color: white;
+        font-size: 16px;
+        height: 30px;
         display: block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: none;
+        cursor: pointer;
     }
-
-    /* PÁGINAS DO MENUBAR */ 
-
+    /* PÁGINAS DO MENUBAR */
     .main {
         padding: 10px 80px 80px 20px;
     }
-
-    .caminho li{
+    .caminho li {
         font-size: 14px;
     }
-
     .main h1 {
         font-size: 20px
     }
-
     .main h3 {
         font-size: 16px;
     }
-
     .social_image {
         width: 30px;
         margin-right: 5px;
     }
-    
-    /* Portifolio */ 
-
+    /* Portifolio */
     .miniaturas {
         max-width: 100%;
         background-size: auto 100%;
     }
-
     .blackbox {
         opacity: 0.8;
     }
-
 }
